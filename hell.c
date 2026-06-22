@@ -8,7 +8,7 @@ int main()
         printf("%d is greater than %d",a,b);
      else if(b>a)
          printf("%d is greater than %d",b,a);
-    else
+     else
         printf("Both numbers are equal");
      return 0;
 }
