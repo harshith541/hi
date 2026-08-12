@@ -12,6 +12,8 @@ int main() {
         printf("Odd");
 
     return 0;
-}def greet(name):
+}
+
+def greet(name):
     print("Hello", name)
 greet("Jack”)
