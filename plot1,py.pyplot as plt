@@ -5,4 +5,4 @@ y =np.sin(x)
 plt.style.use('dark_background')
 plt.plot(x, y)
 plt.title("Sine Wave with dark_background Style")
-plt.show(
+plt.show()
