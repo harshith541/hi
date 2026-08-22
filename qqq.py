@@ -1,0 +1,9 @@
+importseabornassns
+importmatplotlib.pyplotasplt
+tips=sns.load_dataset("tips")
+sns.barplot(x="day",y="total_bill",data=tips,ci=95,palette="pastel")
+plt.title("AverageTotalBillbyDay")
+plt.show()
+sns.boxplot(x="day",y="total_bill",hue="sex",data=tips,palette="Set2")
+plt.title("TotalBillDistributionbyDayandGender")
+plt.show()
