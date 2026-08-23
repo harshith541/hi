@@ -1,0 +1,9 @@
+importseabornassns
+importmatplotlib.pyplotasplt
+tips=sns.load_dataset("tips")
+sns.set_style("whitegrid")
+sns.set_palette("pastel")
+sns.set_context("talk")
+sns.violinplot(x="day",y="total_bill",data=tips)
+plt.title("TotalBillDistributionbyDay")
+plt.show()
