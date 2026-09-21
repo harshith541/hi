@@ -13,7 +13,7 @@ Page | 32
 centroids = kmeans.cluster_centers_ 
 plt.scatter(x[:, 0], x[:, 1], c=y_kmeans, s=50, cmap='viridis') 
 plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=200, alpha=0.75, marker='x', 
-label='Centroids') 
+label= 'Centroids') 
 plt.title ("K-Means Clustering") 
 plt.xlabel  ("Feature 1") 
 plt.ylabel("Feature 2") 
