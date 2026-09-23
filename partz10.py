@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from sklearn.cluster import KMeans 
 from sklearn.datasets import make_blobs 
-x, y_true = make_blobs(n_samples=300, centers=4, cluster_std=0.60, 
+x, y_true = make_blobs (n_samples=300, centers=4, cluster_std=0.60, 
 random_state=0) 
-kmeans = KMeans(n_clusters=4, init='k-means++', n_init=10, 
+kmeans = KMeans (n_clusters=4, init='k-means++', n_init=10, 
 random_state=42) 
 kmeans.fit (x) 
 y_kmeans = kmeans.predict(x) 
