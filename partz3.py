@@ -10,7 +10,7 @@ if search_key in student:
     print(f"Value of '{search_key}':",student[search_key])
 else:
     print("Key not found")
-print("\nAll Keys:",set(student.keys()))
+print ("\nAll Keys:",set(student.keys()))
 print("\nAll Values:",set(student.values()))
 print("\nAll Items:",set(student.items()))
 
