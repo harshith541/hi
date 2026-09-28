@@ -1,7 +1,7 @@
 student={}
 n=int(input("Enter number of key-value pairs:"))
 for i in range(n):
-    key=input(f"Enter key'{i+1}':")
+    key=input (f"Enter key'{i+1}':")
     value=input(f"Enter value for'{key}':")
     student[key]=value
 print ("\nStudent Dictionary:",student)
