@@ -12,6 +12,6 @@ else:
     print("Key not found")
 print ("\nAll Keys:",set(student.keys()))
 print ("\nAll Values:",set(student.values()))
-print("\nAll Items:",set(student.items()))
+print ("\nAll Items:",set(student.items()))
 
 
