@@ -5,7 +5,7 @@ for i in range(n):
     value=input(f"Enter value for'{key}':")
     student[key]=value
 print  ("\nStudent Dictionary:",student)
-search_key=input("\nEnter key to access its value:")
+search_key=input ("\nEnter key to access its value:")
 if search_key in student:
     print (f"Value of '{search_key}':",student[search_key])
 else:
