@@ -4,7 +4,7 @@ def palindrome(s):
     if s==s[::-1]:
         return"Palindrome"
     else:
-        return"Not Palindrome"
+        return "Not Palindrome"
 def frequency(s):
     freq={}
     for ch in s:
