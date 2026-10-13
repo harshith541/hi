@@ -2,7 +2,7 @@ def reverse(s):
     return s[::-1]
 def palindrome(s):
     if s==s[::-1]:
-        return"Palindrome"
+         "Palindrome"
     else:
         return "Not Palindrome"
 def frequency(s):
