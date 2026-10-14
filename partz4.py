@@ -6,7 +6,7 @@ def palindrome(s):
     else:
         return "Not Palindrome"
 def frequency(s):
-    freq={}
+     freq={}
     for ch in s:
         freq[ch]=freq.get(ch,0)+1
     return freq
