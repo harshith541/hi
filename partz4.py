@@ -16,7 +16,7 @@ print("2.Palindrome")
 print("3.Frequency")
 ch=int(input("Enter your choice:"))
 if ch==1:
-    print("Reverse:",reverse(s))
+     print("Reverse:",reverse(s))
 elif ch==2:
     print("Result:", palindrome(s))
 elif ch == 3:
