@@ -6,6 +6,6 @@ if num > 1:
              print("Not Prime")
             break
     else:
-        print("Prime")
+         print("Prime")
 else:
     print("Not Prime")
