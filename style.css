@@ -1,0 +1,18 @@
+.container
+{
+    diplay: grid;
+    grid-template-columns:300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding: 2rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 2rem;
+}
