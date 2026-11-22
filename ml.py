@@ -59,7 +59,7 @@ from sklearn.datasets import fetch_olivetti_faces
 from sklearn.decomposition import PCA 
 from sklearn.model_selection import train_test_split 
  
-faces=fetch_olivetti_faces(shuffle=True,random_state=42) 
+ faces=fetch_olivetti_faces(shuffle=True,random_state=42) 
 images=faces.images 
 data=faces.data 
  
@@ -69,7 +69,7 @@ data_std=scaler.fit_transform(data)
 X_train,X_test=train_test_split(data_std,test_size=0.3,random_state=42) 
  
 pca=PCA(n_components=30,whiten=True) 
-X_train_pca=pca.fit_transform(X_train) 
+ X_train_pca=pca.fit_transform(X_train) 
 X_reconstructed=pca.inverse_transform(X_train_pca) 
 plt.figure(figsize=(20,6)) 
 for i in range(10): 
