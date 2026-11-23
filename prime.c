@@ -4,7 +4,7 @@ int main() {
     int n, i, isPrime = 1;
 
     printf ("Enter a number: ");
-    scanf("%d", &n);
+     scanf("%d", &n);
 
     if (n <= 1) {
          isPrime = 0;
@@ -18,7 +18,7 @@ int main() {
     }
 
     if (isPrime)
-            printf("%d is a Prime Number.\n", n);
+             printf("%d is a Prime Number.\n", n);
     else
          printf("%d is Not a Prime Number.\n", n);
 
